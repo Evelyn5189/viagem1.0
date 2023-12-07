@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        create database viagens;
+        use viagens;
+        
+        create table usuario (
+        nome varchar(255),
+        email varchar(255) primary key,
+        senha varchar(255));
+        select * from usuario;
+        
+        create table viagens(
+        id INT NOT NULL AUTO_INCREMENT,
+        tipo VARCHAR(45) NOT NULL,
+        nome VARCHAR(255) NOT NULL,
+        imagem VARCHAR(80) NOT NULL,
+        preco DECIMAL (6,2) NOT NULL,
+        PRIMARY KEY (id));
+		select * from viagens;
+        
+        INSERT INTO viagens (tipo, nome, imagem, preco) VALUES ('viagem', 'Brasil', 'brasil.jpg', '500.00');
+        INSERT INTO viagens (tipo, nome, imagem, preco) VALUES ('viagem', 'China', 'brasil.jpg', '450.00');
+		
+        
+        
+        
+
+    </h1>
+</body>
+</html>
