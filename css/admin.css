@@ -1,0 +1,123 @@
+
+body{
+    background-color: rgb(174, 246, 255);
+}
+.container-admin-banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0px 20px;
+}
+
+.logo-admin{
+    width: 400px;
+    color:#054752;
+}
+
+h2{
+    font-size: 24px;
+    color: #054752;
+}
+
+.container-table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table{
+    width: 90%;
+    margin: auto 0;
+}
+table, th, td{
+    border: 1px solid #001c20;
+}
+
+table th{
+    padding: 11px 0 11px;
+    background-color: #054752;
+    color: #00dbff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr{
+    border: 1px solid #ddd;
+}
+
+table td{
+    color: #054752;
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+}
+.container-admin-banner h1{
+    margin-top: 40px;
+    font-size: 30px;
+    color:#054752;
+}
+
+.container-lista-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.container-lista{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #054752;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px 0;
+}
+
+.container-lista h3{
+    color: #81e4eb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+table tbody tr td a, .botao-cadastrar, .botao-editar, .botao-excluir{
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: #81e4eb;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.7s;
+    border: none;
+    font-size: 18px;
+}
+
+
+table tbody tr td a:hover, .botao-cadastrar:hover, .botao-editar:hover,.botao-excluir:hover{
+    cursor: pointer;
+    filter: saturate(150%);
+}
+
+.botao-cadastrar{
+    background: #83e4f5;
+    color: #054752;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+
+.botao-editar{
+    background: #054752;
+}
+
+.botao-excluir{
+    background: crimson;
+}
